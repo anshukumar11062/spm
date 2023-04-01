@@ -1,3 +1,12 @@
+/**
+  Mobile Responsive Css
+*/
+@media only screen and (max-width: 320px) {
+  .heading {
+    font-size: 20px !important;
+  }
+}
+
 @media (max-width: 1300px) {}
 
 @media (max-width: 1120px) {}
@@ -34,8 +43,8 @@
 
 
   .slider_section .carousel_btn-box {
-    margin-top: 45px;
-    justify-content: center;
+    margin-top: 340px;
+    justify-content: right;
   }
 
   .slider_section .carousel_btn-box a {
@@ -90,4 +99,6 @@
   .container {
     max-width: 1170px;
   }
+
+
 }
